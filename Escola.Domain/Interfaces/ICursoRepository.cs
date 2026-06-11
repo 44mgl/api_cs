@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Escola.Domain.Entities;
 
-namespace Escola.Domain.obj
+namespace Escola.Domain.Interfaces
 {
     public interface ICursoRepository
     {

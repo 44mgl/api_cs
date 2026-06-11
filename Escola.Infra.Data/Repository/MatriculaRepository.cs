@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Escola.Domain.Interfaces; 
+using Escola.Domain.Entities;
+
+namespace Escola.Infra.Data.Repository
+{
+    public class MatriculaRepository : IMatriculaRepository
+    {
+        public Task<Matricula> AddAsync(Matricula matricula)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Matricula> DeleteAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Matricula>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Matricula> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Matricula> UpdateAsync(Matricula matricula)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

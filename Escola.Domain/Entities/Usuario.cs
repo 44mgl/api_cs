@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Escola.Domain
+namespace Escola.Domain.Entities
 {
     public class Usuario
     {
